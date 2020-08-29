@@ -8,3 +8,16 @@ console.log('Hola Mundo, este es mi primer console.log') // imprime lo que se en
 //number: como un int.
 //undefinied.
 //object: objeto.
+
+//DEFINICION DE VARIABLES
+//var
+//let
+//const
+
+// var miPrimeraVariable = 'var'
+
+let miPrimeraVariable = 'primera variable'
+console.log(miPrimeraVariable);
+
+miPrimeraVariable = 'he reasignado el valor'
+console.log(miPrimeraVariable);

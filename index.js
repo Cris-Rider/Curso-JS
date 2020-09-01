@@ -1,5 +1,5 @@
 //Para correr el archivo js se debe escribir en la terminal "node (nombre del archivo).js
-console.log('Hola Mundo, este es mi primer console.log') // imprime lo que se encuentre dentro de ('') 
+//console.log('Hola Mundo, este es mi primer console.log') // imprime lo que se encuentre dentro de ('') 
 
 //TIPOS DE DATOS EN JS
 //string: cadena de "caracteres".
@@ -22,7 +22,7 @@ const Alumno ={
     Año_escolar: 10 //contando de 1 a 12, 1 siendo primero basico, 12 siendo cuarto medio.
 }
 
-console.log('La edad del alumno pedro es:',Alumno.fecha_de_nacimiento);
+//console.log('La edad del alumno pedro es:',Alumno.fecha_de_nacimiento);
 
 //Arrays/Arreglos
 const arrayvacio=[]
@@ -37,4 +37,34 @@ array.push(5)//.push agrega elementos al final del array
 arrayvacio.push(Alumno.Año_escolar)//llenamos un array vacio
 arrayvacio.push(Alumno.fecha_de_nacimiento)
 
-console.log(array, arrayvacio);//desplegamos ambos arrays
+//console.log(array, arrayvacio);//desplegamos ambos arrays
+
+//Operadores
+const suma = 1+2
+const resta= 1-3
+const multiplicar = 2*4
+const division= 2/4//retorna valor float
+
+//console.log(suma,resta,multiplicar,division)
+
+const modulo = 10 % 3
+//console.log(modulo)
+
+const num= 5
+//num++ , incrementa la variable en +1
+//console.log(num)//al usar const como tipo de variable, el numero o la variable no cambia.
+
+let numero= 6//let permite incrementar la variable
+numero++
+console.log(numero);
+
+numero--//decrementa la variable en -1
+numero--
+console.log(numero);
+
+let num2= 5
+num2+= 5 //incrementa la variable en lo que se declara
+num2-= 5//se resta 5
+num2*= 5//luego se multiplica por 5
+num2/= 2//y finalmente se divide en 2
+console.log(num2);

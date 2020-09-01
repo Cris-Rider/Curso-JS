@@ -83,4 +83,16 @@ const resultado6 = 4 >= 4//true
 const resultado7 = 5!==6 //ve si son estrictamente desiguales o no
 const resultado8 = 5!= '5'
 
-console.log(resultado1, resultado2, resultado3, resultado4, resultado5, resultado6, resultado7, resultado8);
+//console.log(resultado1, resultado2, resultado3, resultado4, resultado5, resultado6, resultado7, resultado8);
+
+//OPERADORES LOGICOS
+//or ||, anda &&, not !
+
+const resultadoOr = false || true //or retorna el primer valor true
+console.log(resultadoOr);
+
+const resultadoAnd = true && false//and retorna el primer valor false
+console.log(resultadoAnd);
+
+const resultadoNot = !false //not retorna el valor contrario al de la variable
+console.log(resultadoNot);

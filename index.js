@@ -69,7 +69,7 @@ num2*= 5//luego se multiplica por 5
 num2/= 2//y finalmente se divide en 2
 //console.log(num2);
 
-//OPERADORES LOGICOS
+//OPERADORES DE COMPARACION
 //retornan valores booleanos true/false
 const resultado1 = 5 === 6 //compara los valores de las variables y el tipo de variables
 

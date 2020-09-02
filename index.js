@@ -89,10 +89,61 @@ const resultado8 = 5!= '5'
 //or ||, anda &&, not !
 
 const resultadoOr = false || true //or retorna el primer valor true
-console.log(resultadoOr);
+//console.log(resultadoOr);
 
 const resultadoAnd = true && false//and retorna el primer valor false
-console.log(resultadoAnd);
+//console.log(resultadoAnd);
 
 const resultadoNot = !false //not retorna el valor contrario al de la variable
-console.log(resultadoNot);
+//console.log(resultadoNot);
+
+
+//CONTROL DE FLUJO
+
+const edad = 20
+
+if (edad>5 && edad < 18) {
+    //console.log('el niño puede jugar')
+} else {
+    //console.log('el niño no puede jugar')
+}
+
+let x = 0
+
+while(x<=5){
+    //console.log(x);
+    x++ 
+} 
+
+//console.log('termina el loop')
+
+let campeonatos_en_el_colo = 3
+
+switch (campeonatos_en_el_colo){
+    case 1:
+        console.log('el bicho');
+        break;
+    case 2:
+        console.log(' messirve');
+        break;
+    case 3:
+        console.log('felipe flores XD');
+        break;
+    default:
+        console.log('dinho');
+        break;
+}
+
+const n = 5
+
+for (let x=0; x<n; x++){
+    //console.log(x);
+}
+
+const numeros = [1,2,'dinho',4,5]
+
+console.log(numeros[2]);//imprimir valores del arreglo
+
+for (let i=0;i<numeros.length;i++){//recorrer e impresion de elementos de un array
+    console.log(numeros[i]);
+}
